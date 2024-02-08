@@ -1,0 +1,79 @@
+<!-- 
+  TODO: Create a motivational post website.
+Style it how ever you like. 
+Look at the goal image for inspiration.
+But it must have the following features:
+1. The main h1 text should be using the Regular Libre Baskerville Font from Google Fonts:
+  https://fonts.google.com/specimen/Libre+Baskerville
+2. The text should be white and background black.
+3. Add your own image into the images folder inside assets. It should have a 5px white border.
+4. The text should be center aligned.
+5. Create a div to contain the h1, p and img elements. Adjust the margins so that the image and text are centered on the page. 
+  Hint: You horizontally center a div by giving it a width of 50% and a margin-left of 25%.
+  Hint: Set the image to have a width of 100% so it fills the div. 
+6. Read about the text-transform property on MDN docs to make the h1 uppercase with CSS.
+  https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform 
+-->
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Motivation for Sunny</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Batang&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Batang&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        <style>
+          html{
+            background-color:black;
+          }
+          body{
+            text-align: center;
+          }
+          .poster {
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 100px;
+            text-align: center;
+          }
+          #image{
+            width: 100%;
+            border:7px solid #ED7B7B;
+          }
+          #first{
+            font-family: 'Black Han Sans', sans-serif;
+            color: #EBE76C;
+            font-size: 40px;
+          }
+          h1{
+            margin-top: -20px;
+            color:#FFF3DA;
+            font-family: 'Nanum Myeongjo', serif;
+          }
+          p{
+            color:#F0B86E;
+            font-size: 20px;
+            font-family: 'Gowun Batang', serif;
+          }
+        </style>
+    </head>
+    <body>
+      <div class="poster">
+        <img id="image" src="./assets/images/mimss.jpg" alt="김민선 화이팅이라고">
+        <p id="first">대민선 투자자산운용사 시험</p>
+        <h1>10th March 2024</h1>
+        <p>김민선 떨어지면 고개들고 다니지 마라</p>
+        <p>떨어지면 그날부터 김동수랑 1일이다</p>
+        <p>지금 당장 책펴세요</p>
+        <p>붙으면 다음 남자친구 서울대</p>
+        <br/>
+      </div>
+    </body>
+</html>
